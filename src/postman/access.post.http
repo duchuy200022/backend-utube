@@ -1,0 +1,14 @@
+
+@url_dev=http://127.0.0.1:3056/v1/api/
+
+### signup
+
+POST {{url_dev}}shop/signup
+Content-Type: application/json
+x-api-key: 2695929b69fc28f93ec4887b9ddd87e7a119ec4c44d0ee0e5b02245b005b1c0d166c9d5fa74c03ddff6bc82324780c4c23e648250b79004f7ba033361eb97705
+
+{
+    "name": "Shop Tip4",
+    "email": "shoptip4@gmail.com",
+    "password": "abc123"
+}
